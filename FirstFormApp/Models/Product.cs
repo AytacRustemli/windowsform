@@ -17,6 +17,6 @@ namespace FirstFormApp.Models
         public DateTime ExpirationDate { get; set; }
         public string PhotoUrl { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Categoryy Category { get; set; }
     }
 }

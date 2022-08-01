@@ -50,7 +50,7 @@ namespace FirstFormApp
                             Name = name,
                             Surname = surname,
                         };
-                        _authManager.Register(newUser);
+                        _authManager.Register(newUser,password);
                         MessageBox.Show("Qeydiyyatdan ugurla kecdiniz.");
                         this.Close();
                     }

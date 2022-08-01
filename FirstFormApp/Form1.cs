@@ -35,5 +35,11 @@ namespace FirstFormApp
             Register register = new();
             register.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Category category = new();
+            category.ShowDialog();
+        }
     }
 }
